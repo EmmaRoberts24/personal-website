@@ -1,5 +1,3 @@
+theme: minima
 title: Emma Roberts
-description: A portfolio showcasing my projects and skills.
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
+description: A portfolio showcasing my projects and skills
