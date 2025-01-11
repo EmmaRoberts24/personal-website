@@ -18,6 +18,16 @@ BCEHS
 CWMT
 Mt Seymour
 
+# Education 
+
+## MSc
+
+UCL
+
+## BSc
+
+UBC
+
 # Skills 
 
 ## Tech
