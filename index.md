@@ -65,7 +65,7 @@
   }
 </style>
 
-![Emma Roberts](images/profile.jpg)
+![Emma Roberts](images/profile.jpg){ style="width: 300px; border: 1px solid black;" }
 
 # Career objectives and interests {#section-1}
 
