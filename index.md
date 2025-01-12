@@ -1,9 +1,20 @@
-# Career objectives and interests 
+<nav>
+  <ul>
+    <li><a href="#section-1">Career objectives and interests</a></li>
+    <li><a href="#section-2">Professional experiences</a></li>
+    <li><a href="#section-3">Education</a></li>
+    <li><a href="#section-4">Skills and certifications</a></li>
+  </ul>
+</nav>
+
+
+
+# Career objectives and interests {#section-1}
 
 My goal is... 
 I am passionate about... 
 
-# Professional experiences
+# Professional experiences {#section-2}
 
 ## Climate change and disaster risk reduction 
 
@@ -18,7 +29,7 @@ BCEHS
 CWMT
 Mt Seymour
 
-# Education 
+# Education {#section-3}
 
 ## MSc
 
@@ -28,7 +39,7 @@ UCL
 
 UBC
 
-# Skills 
+# Skills and certifications {#section-4}
 
 ## Tech
 
