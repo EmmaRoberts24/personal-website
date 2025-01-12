@@ -7,6 +7,46 @@
   </ul>
 </nav>
 
+<style>
+  /* Style the navigation menu */
+  nav {
+    position: fixed; /* Keep the menu visible while scrolling */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: #333; /* Dark background */
+    z-index: 1000; /* Make sure it stays on top */
+  }
+  
+  /* Center the menu items */
+  nav ul {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  /* Style individual menu items */
+  nav ul li {
+    margin: 0 15px; /* Add spacing between items */
+  }
+
+  /* Style the links */
+  nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Smooth hover effect */
+  }
+
+  /* Hover effect for links */
+  nav ul li a:hover {
+    color: #ffcc00; /* Highlight color */
+  }
+</style>
+
 
 # Career objectives and interests {#section-1}
 
