@@ -65,7 +65,7 @@
   }
 </style>
 
-
+![Emma Roberts](images/profile.jpg)
 
 # Career objectives and interests {#section-1}
 
