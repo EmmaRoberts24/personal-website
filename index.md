@@ -13,23 +13,24 @@
     position: fixed; /* Keep the menu visible while scrolling */
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
+    width: 200px; /* Fixed width for the sidebar */
+    height: 100%; /* Full height of the page */
     background-color: #333; /* Dark background */
     z-index: 1000; /* Make sure it stays on top */
+    padding-top: 20px; /* Add some spacing from the top */
   }
   
-  /* Center the menu items */
+  /* Style the list */
   nav ul {
     list-style: none; /* Remove bullets */
-    display: flex; /* Flexbox for horizontal layout */
-    justify-content: center; /* Center items horizontally */
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
   }
 
   /* Style individual menu items */
   nav ul li {
-    margin: 0 15px; /* Add spacing between items */
+    margin: 10px 0; /* Add spacing between items */
+    padding: 5px 10px; /* Add some padding for click area */
   }
 
   /* Style the links */
@@ -37,7 +38,8 @@
     text-decoration: none; /* Remove underline */
     color: white; /* White text */
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
+    display: block; /* Make the link block-level for easier clicking */
     transition: color 0.3s; /* Smooth hover effect */
   }
 
@@ -45,7 +47,24 @@
   nav ul li a:hover {
     color: #ffcc00; /* Highlight color */
   }
+
+  /* Prevent visited links from turning blue or being underlined */
+  nav ul li a:visited {
+    color: white; /* Same color as default */
+    text-decoration: none; /* No underline */
+  }
+
+  /* Optional: Add a background highlight for the active link */
+  nav ul li a:active {
+    background-color: #444;
+  }
+
+  /* Add some spacing to the main content to avoid overlap with the menu */
+  body {
+    margin-left: 220px; /* Adjust this to match the width of the nav */
+  }
 </style>
+
 
 
 # Career objectives and interests {#section-1}
