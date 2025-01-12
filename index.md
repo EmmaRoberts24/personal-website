@@ -7,38 +7,6 @@
   </ul>
 </nav>
 
-<style>
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f8f9fa;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-  }
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-
 
 # Career objectives and interests {#section-1}
 
