@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A portfolio showcasing my projects and skills">
+  <title>Emma Roberts - Portfolio</title>
+  <style>
+    /* Style the navigation menu */
+    nav {
+      position: fixed; /* Keep the menu visible while scrolling */
+      top: 0;
+      left: 0;
+      width: 200px; /* Fixed width for the sidebar */
+      height: 100%; /* Full height of the page */
+      background-color: #333; /* Dark background */
+      z-index: 1000; /* Make sure it stays on top */
+      padding-top: 20px; /* Add some spacing from the top */
+    }
+    
+    /* Style the list */
+    nav ul {
+      list-style: none; /* Remove bullets */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Style individual menu items */
+    nav ul li {
+      margin: 10px 0; /* Add spacing between items */
+      padding: 5px 10px; /* Add some padding for click area */
+    }
+
+    /* Style the links */
+    nav ul li a {
+      text-decoration: none; /* Remove underline */
+      color: white; /* White text */
+      font-weight: bold;
+      font-size: 14px;
+      display: block; /* Make the link block-level for easier clicking */
+      transition: color 0.3s; /* Smooth hover effect */
+    }
+
+    /* Hover effect for links */
+    nav ul li a:hover {
+      color: #ffcc00; /* Highlight color */
+    }
+
+    /* Prevent visited links from turning blue or being underlined */
+    nav ul li a:visited {
+      color: white; /* Same color as default */
+      text-decoration: none; /* No underline */
+    }
+
+    /* Optional: Add a background highlight for the active link */
+    nav ul li a:active {
+      background-color: #444;
+    }
+
+    /* Add some spacing to the main content to avoid overlap with the menu */
+    body {
+      margin-left: 220px; /* Adjust this to match the width of the nav */
+      font-family: Arial, sans-serif; /* Set a default font */
+      line-height: 1.6; /* Improve text readability */
+    }
+
+    /* Style for section headings */
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 300px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#section-1">Career objectives and interests</a></li>
+      <li><a href="#section-2">Professional experiences</a></li>
+      <li><a href="#section-3">Education</a></li>
+      <li><a href="#section-4">Skills and certifications</a></li>
+    </ul>
+  </nav>
+
+  <img src="images/profile.jpg" alt="Emma Roberts">
+
+  <section id="section-1">
+    <h1>Career Objectives and Interests</h1>
+    <p>My goal is...</p>
+    <p>I am passionate about...</p>
+  </section>
+
+  <section id="section-2">
+    <h1>Professional Experiences</h1>
+    <h2>Climate Change and Disaster Risk Reduction</h2>
+    <ul>
+      <li>GVS</li>
+      <li>RRI</li>
+      <li>Hamerkop</li>
+      <li>Red Cross</li>
+    </ul>
+
+    <h2>Prehospital Medical Response</h2>
+    <ul>
+      <li>BCEHS</li>
+      <li>CWMT</li>
+      <li>Mt Seymour</li>
+    </ul>
+  </section>
+
+  <section id="section-3">
+    <h1>Education</h1>
+    <h2>MSc</h2>
+    <p>UCL</p>
+    <h2>BSc</h2>
+    <p>UBC</p>
+  </section>
+
+  <section id="section-4">
+    <h1>Skills and Certifications</h1>
+    <h2>Tech</h2>
+    <p>Python</p>
+    <h2>Languages</h2>
+    <p>English, French, Spanish</p>
+    <h2>Emergency Response</h2>
+    <p>EMR</p>
+    <h2>Field Work</h2>
+    <p>RARI</p>
+  </section>
+</body>
+</html>
