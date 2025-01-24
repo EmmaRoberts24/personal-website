@@ -2,71 +2,71 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-/* Style the navigation menu */
-nav {
-  position: fixed; /* Keep the menu visible while scrolling */
-  top: 0;
-  left: 0;
-  width: 200px; /* Fixed width for the sidebar */
-  height: 100%; /* Full height of the page */
-  background-color: #008080; /* Teal background */
-  z-index: 1000; /* Make sure it stays on top */
-  display: flex; /* Use flexbox for alignment */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally within the sidebar */
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of projects, experiences, and skills">
+  <title>Emma Roberts - Portfolio</title>
+  <style>
+    /* Style the navigation menu */
+    nav {
+      position: fixed; /* Keep the menu visible while scrolling */
+      top: 0;
+      left: 0;
+      width: 200px; /* Fixed width for the sidebar */
+      height: 100%; /* Full height of the page */
+      background-color: #008080; /* Teal background */
+      z-index: 1000; /* Make sure it stays on top */
+      padding-top: 20px; /* Add some spacing from the top */
+    }
+    
+    /* Style the list */
+    nav ul {
+      list-style: none; /* Remove bullets */
+      margin: 0;
+      padding: 0;
+    }
 
-/* Style the list */
-nav ul {
-  list-style: none; /* Remove bullets */
-  margin: 0;
-  padding: 0;
-  width: 100%; /* Ensure the list takes up full width */
-  text-align: center; /* Center-align the text */
-}
+    /* Style individual menu items */
+    nav ul li {
+      margin: 10px 0; /* Add spacing between items */
+      padding: 5px 10px; /* Add some padding for click area */
+    }
 
-/* Style individual menu items */
-nav ul li {
-  margin: 10px 0; /* Add spacing between items */
-  padding: 5px 10px; /* Add some padding for click area */
-}
+    /* Style the links */
+    nav ul li a {
+      text-decoration: none; /* Remove underline */
+      color: white; /* White text */
+      font-weight: bold;
+      font-size: 14px;
+      display: block; /* Make the link block-level for easier clicking */
+      transition: color 0.3s; /* Smooth hover effect */
+    }
 
-/* Style the links */
-nav ul li a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* White text */
-  font-weight: bold;
-  font-size: 14px;
-  display: block; /* Make the link block-level for easier clicking */
-  transition: color 0.3s; /* Smooth hover effect */
-}
+    /* Hover effect for links */
+    nav ul li a:hover {
+      color: #ffcc00; /* Highlight color */
+    }
 
-/* Hover effect for links */
-nav ul li a:hover {
-  color: #ffcc00; /* Highlight color */
-}
+    /* Prevent visited links from turning blue or being underlined */
+    nav ul li a:visited {
+      color: white; /* Same color as default */
+      text-decoration: none; /* No underline */
+    }
 
-/* Prevent visited links from turning blue or being underlined */
-nav ul li a:visited {
-  color: white; /* Same color as default */
-  text-decoration: none; /* No underline */
-}
+    /* Optional: Add a background highlight for the active link */
+    nav ul li a:active {
+      background-color: #444;
+    }
 
-/* Optional: Add a background highlight for the active link */
-nav ul li a:active {
-  background-color: #444;
-}
+    /* Add some spacing to the main content to avoid overlap with the menu */
+    body {
+      margin-left: 220px; /* Adjust this to match the width of the nav */
+      font-family: Arial, sans-serif; /* Set a default font */
+      line-height: 1.6; /* Improve text readability */
+    }
 
-/* Add some spacing to the main content to avoid overlap with the menu */
-body {
-  margin-left: 220px; /* Adjust this to match the width of the nav */
-  font-family: Arial, sans-serif; /* Set a default font */
-  line-height: 1.6; /* Improve text readability */
-}
-
-
+  
 /* Global styles for headers */
 h1 {
   font-size: 1.8rem;  
